@@ -1,6 +1,6 @@
 % 20150120 :: sergey.vinogradov@noaa.gov
-% Reading adcirc maxele from the netcdf file
-% Input: path to maxele.63.nc file
+% Reading baroclinic pressure gradient from the netcdf file
+% Input: path to fort.11.nc file
 %
 function data = read_adcirc_fort11_nc (ncFile)
 
