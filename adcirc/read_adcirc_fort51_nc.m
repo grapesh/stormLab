@@ -1,6 +1,4 @@
 % 20150120 :: sergey.vinogradov@noaa.gov
-% Reading adcirc maxele from the netcdf file
-% Input: path to maxele.63.nc file
 %
 function [data, attrib] = read_adcirc_fort51_nc (ncFile)
 
