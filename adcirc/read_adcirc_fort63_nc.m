@@ -1,3 +1,4 @@
+% 20150120 :: sergey.vinogradov@noaa.gov
 function [data, attrib] = read_adcirc_fort63_nc (ncFile)
 
 disp(['Reading ', ncFile]);
