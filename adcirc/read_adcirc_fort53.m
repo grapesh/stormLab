@@ -42,11 +42,11 @@ catch err
 end
 fclose(fid);
 
-data.nfreq   = nfreq;
-data.hafreq  = hafreq;
-data.haff    = haff;
-data.haface  = haface;
-data.namefr  = namefr;
-data.np      = np;
-data.emagt   = emagt;
-data.phasede = phasede;
+data.frequency    = hafreq;
+data.nodal_factor = haff;
+data.name         = namefr;
+data.equilibrium  = haface;
+data.amp          = emagt;
+data.phs          = phasede;
+
+
