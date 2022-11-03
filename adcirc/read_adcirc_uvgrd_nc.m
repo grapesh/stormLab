@@ -1,6 +1,6 @@
 % 20150120 :: sergey.vinogradov@noaa.gov
-% Reading adcirc maxwvel from the netcdf file
-% Input: path to maxele.63.nc file
+% Reading adcirc uvgrd from the netcdf file
+% Input: path to uvfrd.63.nc file
 %
 function [data, attrib] = read_adcirc_uvgrd_nc (ncFile)
 
