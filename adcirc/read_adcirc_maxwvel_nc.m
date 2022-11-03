@@ -1,6 +1,6 @@
 % 20150120 :: sergey.vinogradov@noaa.gov
 % Reading adcirc maxwvel from the netcdf file
-% Input: path to maxele.63.nc file
+% Input: path to maxwvel.63.nc file
 %
 function [data, attrib] = read_adcirc_maxwvel_nc (ncFile)
 
