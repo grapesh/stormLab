@@ -31,8 +31,8 @@ try
     emagt=nan(np,nfreq);                            %harmonic amplitude (meters)
     phasede=nan(np,nfreq);                          %harmonic phase (degrees)
     for cnt1=1:nfreq
-        emagt(:,cnt1)=tmp1(2*(cnt1-1)+2:stride:end);
-        phasede(:,cnt1)=tmp1(2*(cnt1-1)+3:stride:end);
+        emagt(:,cnt1)=tmp1(2*(cnt1-1)+2:stride:end); 
+        phasede(:,cnt1)=tmp1(2*(cnt1-1)+3:stride:end); 
     end
 catch err
     if exist('fid','var')&&fid~=-1
