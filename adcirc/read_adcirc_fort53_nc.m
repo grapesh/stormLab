@@ -1,3 +1,5 @@
+% 20150120 :: sergey.vinogradov@noaa.gov
+%
 function [data, attrib] = read_adcirc_fort53_nc (ncFile)
 
 data.time           = ncread(ncFile, 'time');
