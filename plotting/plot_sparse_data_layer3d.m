@@ -49,16 +49,7 @@ end
 
 %define 256-colors
 ncol = length(cmap);
-%cmap = colormap(jet(ncol));
 
-% % load coastline
-% coastfile = '/project/p1150/M-bench/lib/coastline_files/world.dat';
-% if exist(coastfile)
-%     coast =load(coastfile);
-% end
-% hold on
-% plot(coast(:,1),coast(:,2),'Color',[0.7 0.7 0.7]);
-% load ('cmap10.mat');
 if length(sizes)
     min_size = sizes(1);   
     max_size = sizes(2);
